@@ -10,17 +10,17 @@ Provide the RSK Testnet Explorer URLs for each verified contract:
 
 ### SimpleToken
 ```text
-YOUR_EXPLORER_URL_HERE
+https://explorer.testnet.rootstock.io/address/0x639f3b62c69bbd2d39b950f0d40d620bb62cd672
 ```
 
 ### PriceOracle
 ```text
-YOUR_EXPLORER_URL_HERE
+https://explorer.testnet.rootstock.io/address/0x7830e1cbfc83191f1d3292f274bb23786fe1b0b3
 ```
 
 ### NFTMarketplace
 ```text
-YOUR_EXPLORER_URL_HERE
+https://explorer.testnet.rootstock.io/address/0x89ae2a58e38cac20377f426ed90ec8de220f024b
 ```
 
 ---
@@ -48,5 +48,15 @@ This should show the green checkmark and the verified source code.
 Add any notes or observations from your verification process:
 
 ```text
-YOUR_NOTES_HERE
+Using a different fork (I used the default Prague) results in verification error.
 ```
+
+
+Step 1: Deploying SimpleToken...
+   SimpleToken deployed to: 0x639f3b62C69Bbd2d39b950F0d40d620Bb62cd672
+
+Step 2: Deploying PriceOracle...
+   PriceOracle deployed to: 0x7830e1cBFC83191F1d3292F274Bb23786Fe1B0B3
+
+Step 3: Deploying NFTMarketplace...
+   NFTMarketplace deployed to: 0x89AE2A58E38Cac20377f426ED90Ec8de220f024B
